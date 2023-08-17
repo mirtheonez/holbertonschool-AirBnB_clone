@@ -4,7 +4,7 @@ Entry point of the command interpreter
 '''
 import cmd
 from models.engine.file_storage import FileStorage
-from models.engine.base_model import BaseModel
+from models.base_model import BaseModel
 from models.engine.user import User
 from models.engine.place import Place
 from models.engine.state import State
