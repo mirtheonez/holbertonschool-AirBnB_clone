@@ -7,12 +7,12 @@ deserialises JSON files to instances
 import json
 import os.path
 from models.base_model import BaseModel
-from models.engine.user import User
-from models.engine.state import State
-from models.engine.place import Place
-from models.engine.city import City
-from models.engine.amenity import Amenity
-from models.engine.review import Review
+from models.user import User
+from models.state import State
+from models.place import Place
+from models.city import City
+from models.amenity import Amenity
+from models.review import Review
 
 
 class FileStorage():

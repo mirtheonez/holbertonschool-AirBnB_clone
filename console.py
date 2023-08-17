@@ -5,12 +5,12 @@ Entry point of the command interpreter
 import cmd
 from models.engine.file_storage import FileStorage
 from models.base_model import BaseModel
-from models.engine.user import User
-from models.engine.place import Place
-from models.engine.state import State
-from models.engine.city import City
-from models.engine.amenity import Amenity
-from models.engine.review import Review
+from models.user import User
+from models.place import Place
+from models.state import State
+from models.city import City
+from models.amenity import Amenity
+from models.review import Review
 
 
 class HBNBCommand(cmd.Cmd):
